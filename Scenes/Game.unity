@@ -833,7 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeToComplete: 20
-  timeToShowAnswer: 10
+  timeToShowAnswer: 5
   loadNextQuestion: 0
   fillFraction: 0
   isAnsweringQuestion: 0
@@ -1628,7 +1628,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 783363631}
-  question: {fileID: 11400000, guid: 82ebc12aadcc4b24dbb108a78fbecdd6, type: 2}
+  questions:
+  - {fileID: 11400000, guid: 82ebc12aadcc4b24dbb108a78fbecdd6, type: 2}
+  - {fileID: 11400000, guid: 7ef7c1dad846cfe459ecaf4d582801cf, type: 2}
+  - {fileID: 11400000, guid: 6994518ae27959e4c94016ad6b2dcf3f, type: 2}
+  - {fileID: 11400000, guid: 5f6f55c876bde5545ac3251d00af0dd2, type: 2}
+  - {fileID: 11400000, guid: d6434aa5b35641346b4a277ab4508a25, type: 2}
   answerButtons:
   - {fileID: 3034038776269334679}
   - {fileID: 1621897965}
