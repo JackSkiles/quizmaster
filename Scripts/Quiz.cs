@@ -33,7 +33,7 @@ public class Quiz : MonoBehaviour
 
     public bool isComplete;
     bool buttonState = true;
-    void Start()
+    void Awake()
     {
         timer = FindObjectOfType<Timer>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
